@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mico Galindez Website</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2316212B'/><text x='50' y='68' font-family='Arial, sans-serif' font-size='52' font-weight='bold' fill='%23F2F4F3' text-anchor='middle'>MG</text></svg>">
+<meta name="description" content="Portfolio of Mico Galindez, Computer Engineer specializing in quality, process improvement, and automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="mark" href="#top">MG<span class="mark-dot">.</span></a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Section navigation">
+      <a href="#experience">Experience</a>
+      <a href="#project">Project</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-switch" id="themeSwitch" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+        <span class="theme-switch-label">Display</span>
+        <span class="rocker">
+          <span class="rocker-knob"></span>
+        </span>
+        <span class="theme-switch-state" id="themeState">Light</span>
+      </button>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap" id="hero">
+    <div class="hero-text">
+      <p class="kicker">Welcome to my website!</p>
+      <h1>Mico Galindez</h1>
+      <p class="hero-lede">
+        Bachelor's degree holder in Computer Engineering, passionate about pursuing an Engineering position in the Manufacturing industry. Certified in Six Sigma Yellow Belt, Lean Six Sigma Green Belt, ISO 9001:2015 QMS, Lean Manufacturing, and Root Cause Analysis, with hands-on knowledge in continuous improvement, quality inspection, process improvement, and troubleshooting. Eager to apply technical and problem-solving skills to support production efficiency and quality standards.
+      </p>
+
+      <ul class="contact-chips">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
+          Tanauan City, Batangas
+        </li>
+        <li>
+          <a href="mailto:galindezmico@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="m3.5 6 8.5 7 8.5-7" stroke="currentColor" stroke-width="1.6"/></svg>
+            galindezmico@gmail.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:+639510796834">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.6 3 3 3.4 2.6 4 2.6h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1L6.6 10.8Z" stroke="currentColor" stroke-width="1.6"/></svg>
+            +63 951 079 6834
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/micsgalindez/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 10.5V17M7.5 7.6v.05M11.5 17v-4c0-1.1.7-2 2-2s2 .9 2 2v4M11.5 10.5V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            linkedin.com/in/micsgalindez
+          </a>
+        </li>
+      </ul>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="#experience">View experience</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-frame">
+        <img src="assets/profile.png" alt="Portrait of Mico Galindez">
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+      </div>
+      <p class="photo-tag">4232 Batangas, Philippines</p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="log">
+        <article class="log-entry">
+          <div class="log-when">
+            <span class="log-range">Mar 2024 — Sep 2026</span>
+          </div>
+          <div class="log-body">
+            <h3>Manage Computer Shop Piso-Net</h3>
+            <p class="log-org">Family-owned Piso-Net Shop · Tanauan City, Batangas</p>
+            <ul>
+              <li>Ran day-to-day operations of a PisoNet shop: preventive maintenance, hardware/software troubleshooting, installation, and reformatting to keep every unit customer-ready.</li>
+              <li>Carried out monthly preventive maintenance, quality checks, and LAN cabling across all units, cutting down repair costs and downtime.</li>
+              <li>Walked customers through basic fixes themselves, building trust and repeat visits.</li>
+              <li>Installed and licensed Microsoft Office and Windows 10/11 across the shop's machines.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="log-entry">
+          <div class="log-when">
+            <span class="log-range">Feb — Mar 2024</span>
+          </div>
+          <div class="log-body">
+            <h3>On-the-Job Trainee</h3>
+            <p class="log-org">Power Works Trading · Tanauan City, Batangas</p>
+            <ul>
+              <li>Completed 240 hours across sublimation printing, PC troubleshooting, inventory documentation, and receipt data encoding.</li>
+              <li>Deployed to client sites in Malvar and Bauan, Batangas for on-site troubleshooting and installation of printed outputs.</li>
+              <li>Built an attendance-monitoring system using a fingerprint sensor, Arduino UNO, and C++, with results logged to Excel.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECT -->
+  <section class="section section-alt" id="project">
+    <div class="wrap">
+      <h2 class="section-title">Thesis Project</h2>
+
+      <div class="project-card">
+        <div class="project-main">
+          <p class="project-period">January 2023 — June 2024</p>
+          <h3>RABBITECH</h3>
+          <p class="project-sub">Automatic feeding and monitoring system for rabbitry</p>
+          <p class="project-desc">
+            An automated care system for rabbit farming, paired with a Flutter mobile app for
+            controlling feeding schedules and monitoring temperature remotely. Sensor data and
+            feeding logic run on an Arduino UNO and NodeMCU, handling everything from portioning
+            feed to tracking environmental conditions in real time.
+          </p>
+
+          <div class="project-responsibilities">
+            <h4>What I owned</h4>
+            <ul>
+              <li>Wrote the full technical documentation, Chapters 1 through 5</li>
+              <li>Programmed and final-tested the system, verifying every sensor before the defense</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-side">
+          <div class="spec-block">
+            <h4>Software</h4>
+            <ul class="tag-list">
+              <li>C++</li>
+              <li>Flutter</li>
+              <li>Arduino IDE</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div class="spec-block">
+            <h4>Hardware</h4>
+            <ul class="tag-list">
+              <li>Arduino UNO</li>
+              <li>NodeMCU</li>
+              <li>DHT22 sensor</li>
+              <li>Load cell + amplifier</li>
+              <li>Ultrasonic sensor</li>
+              <li>RTC module</li>
+              <li>Geared &amp; servo motor</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="datasheet-grid">
+        <div class="datasheet">
+          <h3>Process &amp; quality</h3>
+          <table>
+            <tbody>
+              <tr><td>Troubleshooting</td><td>Hardware &amp; software</td></tr>
+              <tr><td>Maintenance</td><td>Preventive, scheduled</td></tr>
+              <tr><td>Inspection</td><td>Quality &amp; final testing</td></tr>
+              <tr><td>Improvement</td><td>Process &amp; root-cause</td></tr>
+              <tr><td>Documentation</td><td>Word, Excel, PowerPoint</td></tr>
+              <tr><td>Operations</td><td>Inventory, data encoding, LAN cabling</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="datasheet">
+          <h3>Technical &amp; engineering</h3>
+          <table>
+            <tbody>
+              <tr><td>Programming</td><td>C++, Python</td></tr>
+              <tr><td>Embedded</td><td>Arduino UNO, NodeMCU, IoT</td></tr>
+              <tr><td>Circuits</td><td>IC design, breadboarding</td></tr>
+              <tr><td>Analysis tools</td><td>MATLAB, Minitab, Xilinx ISE</td></tr>
+              <tr><td>Environment</td><td>VS Code, Arduino IDE</td></tr>
+              <tr><td>Automation</td><td>Robotics &amp; sensors</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="wrap">
+      <h2 class="section-title">Education</h2>
+      
+      <div class="edu-row">
+        <img src="assets/tcc-logo.png" alt="TCC Logo" class="edu-logo"> 
+        
+        <div class="edu-body">
+          <div class="edu-when">2020 – 2024</div>
+          <h3>BS Computer Engineering</h3>
+          <p class="log-org">Tanauan City College · Tanauan City, Batangas</p>
+          <p>Thesis: RABBITECH – automatic feeding and monitoring system for rabbitry. Hands-on coursework in robotics automation, sensors, integrated circuits, and IoT, using MATLAB, Xilinx ISE, VS Code, and Arduino IDE.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="wrap">
+      <h2 class="section-title">Diploma &amp; certificates</h2>
+
+      <div class="cert-carousel-container">
+        
+        <button class="carousel-btn prev" id="cert-prev">&#10094;</button>
+
+        <div class="cert-carousel-track" id="cert-track">
+          
+          <div class="cert-tile">
+            <div class="cert-image-wrapper">
+              <a href="assets/six-sigma-yellow-belt.png" class="cert-link" data-caption="Six Sigma Yellow Belt - Diploma">
+                <img src="assets/six-sigma-yellow-belt.png" alt="Six Sigma Yellow Belt" loading="lazy">
+              </a>
+            </div>
+            <div class="cert-info">
+              <p class="cert-date">Aug 24 — Sep 2, 2026</p>
+              <h3>Six Sigma Yellow Belt</h3>
+              <p class="cert-issuer">Diploma · Alison</p>
+              <p>16 hours covering Kaizen, Lean, DMAIC/DMADV, VOC, CTQ, SIPOC, fishbone diagrams, and 5 Why analysis, with hands-on Minitab data analysis.</p>
+            </div>
+          </div>
+
+          <div class="cert-tile">
+            <div class="cert-image-wrapper">
+              <a href="assets/lean-six-sigma-green-belt.png" class="cert-link" data-caption="Lean Six Sigma: Green Belt Fundamentals">
+                <img src="assets/lean-six-sigma-green-belt.png" alt="Lean Six Sigma Green Belt" loading="lazy">
+              </a>
+            </div>
+            <div class="cert-info">
+              <p class="cert-date">Sep 3, 2026</p>
+              <h3>Lean Six Sigma: Green Belt Fundamentals</h3>
+              <p class="cert-issuer">Certificate · Alison</p>
+              <p>8 hours on the DMAIC framework, VoC/CTQ translation, SIPOC and VSM process mapping, hypothesis testing, FMEA, SPC, and SOPs.</p>
+            </div>
+          </div>
+
+          <div class="cert-tile">
+            <div class="cert-image-wrapper">
+              <a href="assets/iso-9001-qms.png" class="cert-link" data-caption="ISO 9001:2015 — QMS Complete Guide">
+                <img src="assets/iso-9001-qms.png" alt="ISO 9001 QMS" loading="lazy">
+              </a>
+            </div>
+            <div class="cert-info">
+              <p class="cert-date">Sep 4 — 7, 2026</p>
+              <h3>ISO 9001:2015 — QMS Complete Guide</h3>
+              <p class="cert-issuer">Certificate · Alison</p>
+              <p>Quality Management System principles, documentation requirements, the PDCA cycle, and how to plan and run internal audits.</p>
+            </div>
+          </div>
+
+          <div class="cert-tile">
+            <div class="cert-image-wrapper">
+              <a href="assets/lean-manufacturing.png" class="cert-link" data-caption="Lean Manufacturing — Principles &amp; Implementation">
+                <img src="assets/lean-manufacturing.png" alt="Lean Manufacturing" loading="lazy">
+              </a>
+            </div>
+            <div class="cert-info">
+              <p class="cert-date">Sep 8, 2026</p>
+              <h3>Lean Manufacturing — Principles &amp; Implementation</h3>
+              <p class="cert-issuer">Certificate · Alison</p>
+              <p>Identifying and eliminating the eight wastes, 5S, Kaizen, Kanban, Total Productive Maintenance, and bottleneck resolution.</p>
+            </div>
+          </div>
+
+          <div class="cert-tile">
+            <div class="cert-image-wrapper">
+              <a href="assets/root-cause-analysis.png" class="cert-link" data-caption="Root Cause Analysis: Tools &amp; Techniques">
+                <img src="assets/root-cause-analysis.png" alt="Root Cause Analysis" loading="lazy">
+              </a>
+            </div>
+            <div class="cert-info">
+              <p class="cert-date">Sep 9 — 10, 2026</p>
+              <h3>Root Cause Analysis: Tools &amp; Techniques</h3>
+              <p class="cert-issuer">Certificate · Alison</p>
+              <p>RCA methodologies including 5 Whys, fishbone diagrams, and Pareto charts, plus investigation planning and root-cause prioritisation by risk.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-btn next" id="cert-next">&#10095;</button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="wrap contact-inner">
+      <div>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="contact-lede">
+          "I'm currently open to engineering roles and exciting opportunities. If you just want to connect, reach out directly — I reply fast."
+        </p>
+      </div>
+      <br>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:galindezmico@gmail.com">galindezmico@gmail.com</a>
+        <a class="btn btn-ghost" href="tel:+639510796834">+63 951 079 6834</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/micsgalindez/" target="_blank" rel="noopener">LinkedIn profile</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 Mico Galindez</span>
+    <span>Tanauan City, Batangas, PH</span>
+  </div>
+</footer>
+
+<!-- MODAL / POPUP -->
+<div id="cert-modal" class="cert-modal">
+  <span class="cert-modal-close">&times;</span>
+  
+  <button class="modal-nav-btn modal-prev" id="modal-prev">&#10094;</button>
+  
+  <img class="cert-modal-content" id="cert-modal-img">
+  <div id="cert-modal-caption"></div>
+  
+  <button class="modal-nav-btn modal-next" id="modal-next">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
